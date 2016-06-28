@@ -1,0 +1,8 @@
+uat:
+   host: 10.128.xx.xx
+   username: TestUser
+   password: testuserdev
+dev:
+   host: 10.128.xx.xx
+   username: TestUser
+   password: testuserdev

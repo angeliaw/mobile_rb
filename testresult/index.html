@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Test Results</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+</head>
+
+<body>
+<div class="container">
+    <div class="jumbotron">
+        <h1>Test Results</h1>
+        <p>
+            Finished in 0h00m22s, 0.23 tests/s, 0.69 assertions/s
+        </p>
+        <p>
+            <strong>
+            <span class="text-info">5 tests</span>,
+            <span class="text-info"> 15 assertions</span>,
+            <span class=""> 0 failures</span>,
+            <span class=""> 0 errors</span>,
+            <span class=""> 0 skips</span>
+            </strong>
+        </p>
+
+        <div class="progress">
+            <div class="progress-bar progress-bar-info" style="width: 100%">
+                100% passed
+            </div>
+            <div class="progress-bar progress-bar-danger" style="width: 0%">
+                0% failed
+            </div>
+            <div class="progress-bar progress-bar-warning" style="width: 0%">
+                0% skipped
+            </div>
+        </div>
+
+
+    </div>
+
+    
+        <div class="panel panel-default">
+            <div class="panel-heading"><strong>CourseStructure::login as a valid student account</strong>
+                <span class="pull-right">
+                    <span class="text-info">1 tests</span>,
+                    <span class="text-info"> 1 assertions</span>,
+                    <span class=""> 0 failures</span>,
+                    <span class=""> 0 errors</span>,
+                    <span class=""> 0 skips</span>,
+                    <span> finished in 9.9678s</span>
+                </span>
+            </div>
+            <div class="panel-body">
+                <div class="list-group">
+                    
+                        <div class="list-group-item">
+                            <h5 class="list-group-item-heading">
+                                
+                                    <span class="glyphicon glyphicon-ok text-info" aria-hidden="true"></span>
+                                
+                                it get course structure of one level
+                                <span class="pull-right">
+                                    Assertions 1, time 9.967787s
+                                </span>
+                            </h5>
+                            
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+    
+        <div class="panel panel-default">
+            <div class="panel-heading"><strong>Progress::verify progress::login as a valid student account</strong>
+                <span class="pull-right">
+                    <span class="text-info">1 tests</span>,
+                    <span class="text-info"> 5 assertions</span>,
+                    <span class=""> 0 failures</span>,
+                    <span class=""> 0 errors</span>,
+                    <span class=""> 0 skips</span>,
+                    <span> finished in 7.7966s</span>
+                </span>
+            </div>
+            <div class="panel-body">
+                <div class="list-group">
+                    
+                        <div class="list-group-item">
+                            <h5 class="list-group-item-heading">
+                                
+                                    <span class="glyphicon glyphicon-ok text-info" aria-hidden="true"></span>
+                                
+                                it pull progress
+                                <span class="pull-right">
+                                    Assertions 5, time 7.796585s
+                                </span>
+                            </h5>
+                            
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+    
+        <div class="panel panel-default">
+            <div class="panel-heading"><strong>UserLogin::login as nonexisting student</strong>
+                <span class="pull-right">
+                    <span class="text-info">1 tests</span>,
+                    <span class="text-info"> 4 assertions</span>,
+                    <span class=""> 0 failures</span>,
+                    <span class=""> 0 errors</span>,
+                    <span class=""> 0 skips</span>,
+                    <span> finished in 1.2090s</span>
+                </span>
+            </div>
+            <div class="panel-body">
+                <div class="list-group">
+                    
+                        <div class="list-group-item">
+                            <h5 class="list-group-item-heading">
+                                
+                                    <span class="glyphicon glyphicon-ok text-info" aria-hidden="true"></span>
+                                
+                                it it should response with errorcode and error description
+                                <span class="pull-right">
+                                    Assertions 4, time 1.209024s
+                                </span>
+                            </h5>
+                            
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+    
+        <div class="panel panel-default">
+            <div class="panel-heading"><strong>UserLogin::login as valid regular student</strong>
+                <span class="pull-right">
+                    <span class="text-info">1 tests</span>,
+                    <span class="text-info"> 2 assertions</span>,
+                    <span class=""> 0 failures</span>,
+                    <span class=""> 0 errors</span>,
+                    <span class=""> 0 skips</span>,
+                    <span> finished in 1.1047s</span>
+                </span>
+            </div>
+            <div class="panel-body">
+                <div class="list-group">
+                    
+                        <div class="list-group-item">
+                            <h5 class="list-group-item-heading">
+                                
+                                    <span class="glyphicon glyphicon-ok text-info" aria-hidden="true"></span>
+                                
+                                it it should response token and session
+                                <span class="pull-right">
+                                    Assertions 2, time 1.104729s
+                                </span>
+                            </h5>
+                            
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+    
+        <div class="panel panel-default">
+            <div class="panel-heading"><strong>UserLogin::login as valid student with wrong password</strong>
+                <span class="pull-right">
+                    <span class="text-info">1 tests</span>,
+                    <span class="text-info"> 3 assertions</span>,
+                    <span class=""> 0 failures</span>,
+                    <span class=""> 0 errors</span>,
+                    <span class=""> 0 skips</span>,
+                    <span> finished in 1.6153s</span>
+                </span>
+            </div>
+            <div class="panel-body">
+                <div class="list-group">
+                    
+                        <div class="list-group-item">
+                            <h5 class="list-group-item-heading">
+                                
+                                    <span class="glyphicon glyphicon-ok text-info" aria-hidden="true"></span>
+                                
+                                it it should response with errorcode and errormessage
+                                <span class="pull-right">
+                                    Assertions 3, time 1.615344s
+                                </span>
+                            </h5>
+                            
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+    
+</div>
+</body>
+</html>

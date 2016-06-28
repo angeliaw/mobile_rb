@@ -1,0 +1,21 @@
+b2c:
+    partnercode: none
+    productid: 1
+    appversion: 1.2.7
+    platform: iOS
+    countrycode: fr
+    culturecode: en
+b2b:
+    partnercode: corp
+    productid: 2
+    appversion: 1.2.7
+    platform: iOS
+    countrycode: fr
+    culturecode: en
+efec:
+    partnercode: Cool
+    productid: 4
+    appversion: 0.6.0
+    platform: iOS
+    countrycode: cn
+    culturecode: en

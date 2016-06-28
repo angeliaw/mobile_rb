@@ -1,0 +1,53 @@
+common: &COMMON
+    uat: &common_uat
+        no_username: ''
+        no_password: no_password
+        nonexisting: nonexistinguser
+    dev: &common_dev
+        no_username: ''
+        no_password: no_password
+        nonexisting: nonexistinguser
+    qa: &common_qa
+        no_username: ''
+        no_password: no_password
+        nonexisting: nonexistinguser
+    live: &common_live
+        v1b2b: mtestc95
+
+b2c:
+    uat: &b2c_uat
+        <<: *common_uat
+        regular:
+        wrong_password:
+    dev: &b2c_dev
+        <<: *common_dev
+        regular:
+        wrong_password:
+    qa: &b2c_qa
+        <<: *common_qa
+        regular:
+    live: &b2c_live
+        <<: *common_live
+        regular:
+
+b2b:
+    uat: &b2b_uat
+        <<: *common_uat
+        regular:
+        wrong_password:
+    qa: &b2b_qa
+        <<: *common_qa
+        regular:
+    live: &b2b_live
+        <<: *common_live
+        regular: mtestc95
+efec:
+    uat: &efec_uat
+        regular: stest12408
+        cool: stest13371
+        mini: stest13483
+        coolv1: stest13378
+        ecspin: stest13060
+        echighlevel: stest13383
+    dev:  &efec_qa
+        regular: stest12408

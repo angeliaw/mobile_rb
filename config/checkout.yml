@@ -1,0 +1,5 @@
+dev: checkoutsecure
+uat: checkoutsecure
+qa: qasecure
+staging: stagingsecure
+live: www

@@ -1,0 +1,34 @@
+686803
+en/: Unable to advance
+pt-BR/: Unable to advance
+zh-CN/: 无法升级
+fr/: Unable to advance
+de/: Unable to advance
+es/: Imposible avanzar
+it/: Unable to advance
+ko-KR/: Unable to advance
+ja-JP/: Unable to advance
+ru/: Переход не удался
+tr-TR/: Unable to advance
+th/: Unable to advance
+ar/: Unable to advance
+zh-HK/: 無法進入下一學習級別
+zh-TW/: 無法進入下一學習級別
+ 
+690783
+en/: There was an error while we were checking the steps you need to take to advance to the next level. Please try again later.
+pt-BR/: There was an error while we were checking the steps you need to take to advance to the next level. Please try again later.
+zh-CN/: 在我们检查您升级到下一个单元所需要采取的步骤时出现了错误。请稍后再试。
+fr/: There was an error while we were checking the steps you need to take to advance to the next level. Please try again later.
+de/: There was an error while we were checking the steps you need to take to advance to the next level. Please try again later.
+es/: There was an error while we were checking the steps you need to take to advance to the next level. Please try again later.
+it/: There was an error while we were checking the steps you need to take to advance to the next level. Please try again later.
+ko-KR/: There was an error while we were checking the steps you need to take to advance to the next level. Please try again later.
+ja-JP/: There was an error while we were checking the steps you need to take to advance to the next level. Please try again later.
+ru/: Во время проверки элементов, необходимых для вашего перевода на следующий уровень, произошла ошибка. Пожалуйста, повторите попытку позже.
+tr-TR/: There was an error while we were checking the steps you need to take to advance to the next level. Please try again later.
+th/: There was an error while we were checking the steps you need to take to advance to the next level. Please try again later.
+ar/: There was an error while we were checking the steps you need to take to advance to the next level. Please try again later.
+zh-HK/: 在我們檢查你需要進階到下一個級別的步驟時，系統發生錯誤，請稍候再試。
+zh-TW/: 在我們檢查你需要進階到下一個級別的步驟時，系統發生錯誤，請稍候再試。
+ 
